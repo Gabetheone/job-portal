@@ -1,20 +1,26 @@
-# Job Portal React App
+# 🌐 Job Portal React App
 
-A simple job portal application built with **React**.  
-This project demonstrates job filtering, search, navigation across multiple pages, and external job-related resources — all in a clean, responsive UI.
+A simple, responsive job portal application built with **React**.  
+It includes job filtering, search functionality, navigation across multiple pages, and curated job resources — all presented in a clean modern UI.
 
-This project is part of my developer portfolio to showcase:
+This project is part of my developer portfolio and showcases:
+
 - React component architecture
-- State management with `useState`
-- Reusable components (`JobCard`)
-- Page switching without external routing libraries
-- UI/UX design using CSS
+- State management using `useState`
+- Reusable UI components (`JobCard`)
+- Multi-page navigation without React Router
+- Clean, responsive UI/UX using CSS
 
 ---
 
 ## 🚀 Demo
 
-**Local Development:**  
+### **Local Development**
+Clone the repo and run:
+
+```bash
+npm install
+npm start
 
 App will run at:  
 👉 `http://localhost:3001`
