@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Job Portal React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple job portal application built with **React**.  
+This project demonstrates job filtering, search, navigation across multiple pages, and external job-related resources — all in a clean, responsive UI.
 
-## Available Scripts
+This project is part of my developer portfolio to showcase:
+- React component architecture
+- State management with `useState`
+- Reusable components (`JobCard`)
+- Page switching without external routing libraries
+- UI/UX design using CSS
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Local Development:**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+App will run at:  
+👉 `http://localhost:3001`
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📌 Features
 
-### `npm run build`
+### 🔍 Job Search + Filtering
+- Search by job title or company
+- Filter by job type (Full-time, Internship, Part-time)
+- Clean grid layout for job cards
+- Reusable `JobCard` component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📝 Apply Button
+- Each job card includes a working "Apply" button that opens the application link
+- URLs can be easily updated in the job data file
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧭 Multi-Page Navigation (Without Router)
+A lightweight navbar allows switching between:
+- **Home** – job listings + search + filter
+- **Tips** – resume & interview advice
+- **Other Job Portals** – curated links to LinkedIn, Indeed, Handshake, Wellfound, etc.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All implemented using simple React state (`useState`) to avoid over-complication.
 
-### `npm run eject`
+### 🎨 Responsive UI
+- Modern layout
+- Accessible color palette
+- Styled with CSS (no external UI library)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React (Create React App)**
+- JavaScript (ES6+)
+- CSS
+- HTML
+- Node.js (development server)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📁 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 💡 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here are some enhancements I plan to add:
 
-### Analyzing the Bundle Size
+- Convert navigation to **React Router** for cleaner URL-based routing
+- Add a dedicated **Job Details Page**
+- Add an **admin mode** to add/edit/delete jobs
+- Add animations + transitions
+- Deploy to **Vercel** or **Netlify**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✨ Purpose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was built to practice:
 
-### Advanced Configuration
+- Front-end React development
+- Organizing a multi-section application
+- Designing clean UI layouts
+- Creating re-usable components
+- Preparing portfolio-ready work for SWE job applications
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Gabriel Elart**  
+GitHub: [GabeTheOne](https://github.com/GabeTheOne)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this project or want to collaborate, feel free to reach out!
